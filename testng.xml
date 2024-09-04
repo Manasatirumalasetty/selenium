@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="tests" thread-count="2">
-  <test  name="Test runner1">
-    <classes>
-      <class name="distributedparallel.test6"/>
-      <class name="distributedparallel.test5"/>
-      <class name="distributedparallel.test4"/>
-     
-    </classes>
-      </test>
-     <test  name="Test runner2">
-    <classes>
-     
-      <class name="distributedparallel.test3"/>
-      <class name="distributedparallel.test2"/>
-      <class name="distributedparallel.test1"/>
-    </classes>
+<suite name="autosuggestions">
+  <test thread-count="5" name="Test">
   </test> <!-- Test -->
-
-</suite> <!-- Suite -->
+</suite> <!-- autosuggestions -->
